@@ -3,5 +3,5 @@
 </p>
 <br>
 <p>
-  <h2>The <em>site</em> is available <b><a href="https://nar0kan.github.io/sample/about.html" underlined>here</a></b></h2>
+  <h2>The <em>site</em> is available <b><a href="https://nar0kan.github.io/Final-Project/about.html" underlined>here</a></b></h2>
 </p>

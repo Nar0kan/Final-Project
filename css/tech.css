@@ -18,6 +18,11 @@ img {
 	margin: 0% auto;
 }
 
+abbr {
+	display: block;
+	text-align: center;
+}
+
 .top_nav abbr {
 	text-decoration: none;
 }
@@ -342,9 +347,16 @@ footer h2 {
 
 	.top_nav img {
 		display: inline-block;
-		width: 25%;
-		height: 35%;
+		/*width: 25%;
+		height: 35%;*/
+		width: 50%;
+		height: auto;
 		padding: 2%;
+	}
+
+	img {
+		width: 30%;
+		height: auto;
 	}
 
 	.content_header h2 {
@@ -397,9 +409,12 @@ footer h2 {
 	}
 
 	.left_footer img {
-		display: inline-block;
-		width: 80%;
+		display: flex;
+		justify-content: center;
+		margin-top: 20%;
 		height: 80%;
+		width: 40%;
+		padding: 5% auto;
 	}
 
 	.center_footer h2 {
@@ -451,13 +466,15 @@ footer h2 {
 
 	img {
 		display: inline-block;
-		width: 30%;
-		height: 30%;
+		float: left;
+		width: 20%;
+		height: auto;
+		margin: 0% 2% 1%;
 	}
 
 	.top_nav img {
 		display: inline-block;
-		width: 20%;
+		width: 10%;
 		height: auto;
 		padding: 2%;
 		margin: 0 auto;
@@ -505,8 +522,9 @@ footer h2 {
 	}
 
 	.left_footer img {
-		width: 40%;
-		margin: 0% auto;
+		margin-top: 0;
+		height: auto;
+		width: auto;
 	}
 
 	/* START OF ABBR ANIMATION FOR NAV BAR */

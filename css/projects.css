@@ -1,7 +1,13 @@
-/* FOR MOBILE VIEW */
+/* ----------__________ MOBILE VIEW __________---------- */
+
 body {
-  overflow-x: hidden;
+	max-width: 100vw;
+	height: 100vh;
+	margin: 0 auto;
+	padding: 0;
 }
+
+/* ----------__________ NAVIGATION __________---------- */
 
 .top_nav {
 	display: block;
@@ -11,36 +17,34 @@ body {
 	font-family: "sans-serif", arial;
 }
 
-img {
-	display: block;
-	width: 75%;
-	height: 55%;
-	margin: 0% auto;
-}
-
-abbr {
+.left_nav abbr {
 	display: block;
 	text-align: center;
 }
 
-.top_nav abbr {
+.left_nav abbr {
+	display: block;
+	text-align: center;
 	text-decoration: none;
 }
 
-.top_nav img {
+.left_nav img {
+	display: block;
+	max-width: 90%;
+	margin: 0 auto;
 	padding: 1% 0%;
 }
 
-.top_nav ul, .top_nav h1 {
+.right_nav ul, .right_nav h1 {
 	display: block;
 	text-align: center;
 }
 
-.top_nav ul {
+.right_nav ul {
 	padding: 1% 0% 1% 0%;
 }
 
-.top_nav li {
+.right_nav li {
 	display: block;
 	margin: 0% 20% 2% 20%;
 	padding: 1% 0%;
@@ -50,21 +54,30 @@ abbr {
 	border-radius: 12%;
 }
 
-.top_nav li:hover {
+.right_nav li:hover {
 	border-color: #FFF8EA;
 	background-color: #594545cc;
 	color: #FFF8EA;
 }
 
-.top_nav a {
+.right_nav a {
 	display: block;
 	text-align: center;
 	text-decoration: none;
 	color: #fafafa;
 }
 
-.top_nav a:hover {
+.right_nav a:hover {
 	color: #FFF8EA;
+}
+
+/* ----------__________ CONTENT __________---------- */
+
+.content img {
+	display: block;
+	width: 75%;
+	height: 55%;
+	margin: 0% auto;
 }
 
 .current_page {
@@ -76,34 +89,116 @@ abbr {
 	display: none;
 }
 
-article {
+.content article {
 	margin-top: 20px;
 }
 
-aside h3, aside h4 {
+.content aside h3, .content aside h4 {
 	color: #1A120B;
 	text-decoration: underline;
 	text-decoration-color: #3C2A21;
 }
 
-aside h4:hover {
+.content aside h4:hover {
 	color: #A084CF;
 	text-decoration-color: #A084CF;
 }
 
-aside h3:hover {
+.content aside h3:hover {
 	color: #A084CF;
 	text-decoration-color: #A084CF;
 }
 
-nav h3, nav h4 {
+.content nav h3, .content nav h4 {
 	display: inline-flex;
 	justify-content: start;
 }
 
+.content section p, .content section li {
+	font-size: 32px;
+	font-family: arial, serif;
+}
+
+.content section h2, .content section h3, .content section h4 {
+	font-size: 48px;
+	font-family: arial, serif;
+}
+
+.content h4 {
+	font-size: 36px;
+}
+
+#page_header {
+	font-size: 44px;
+}
+
+@media screen and (min-width:400px) {
+	#page_header {
+		font-size: 82px;
+	}
+}
+
+.dim_bg {
+	background-color: #22222280;
+}
+
+.con {
+	display: block;
+	min-height: 600px;
+	max-height: 2400px;
+	padding-bottom: 20px;
+	margin-top: 2%;
+}
+
+.left_section {
+	display: block;
+	width: 100%;
+}
+
+.right_section {
+	display: block;
+	background-color: #424242;
+	width: 100%;
+}
+
+.section_button {
+	display: inline-block;
+	text-align: center;
+	align-content: center;
+	width: 40%;
+	margin-bottom: 40px;
+	padding: 1% 2%;
+}
+
+.right_section img {
+	display: block;
+	margin: 0 auto;
+	width: 100%;
+	height: auto;
+}
+
+.tech_stack {
+	display: inline-block;
+	padding: 0%;
+	margin: 0% auto;
+}
+
+.link {
+	display: flex;
+	justify-content: start;
+	align-items: center;
+}
+
+.section_button {
+	margin-right: 30%;
+}
+
+
+/* ----------__________ FOOTER __________---------- */
+
 footer {
 	display: block;
-	min-height: 25vh;
+	min-height: 25%;
 	background-color: #594545;
 	color: #FFF8EA;
 	font-size: 48px;
@@ -112,14 +207,8 @@ footer {
 	padding: 2% 10%;
 }
 
-#container:after {
-	content: "";
-}
-
 footer img {
-	display: inline-block;
-	width: 35%;
-	height: 35%;
+	display: block;
 }
 
 footer h2 {
@@ -136,7 +225,14 @@ footer h2, .footer_links {
 .center_footer h2, .left_footer img {
 	display: block;
 	margin: 0 auto;
+	text-align: left;
+	word-wrap: break-word;
 	padding-bottom: 10px;
+}
+
+.left_footer img {
+	max-width: 80%;
+	max-height: 80%;
 }
 
 .footer_links {
@@ -165,57 +261,8 @@ footer h2, .footer_links {
 	color: #fff8ea;
 }
 
-section p, section li {
-	font-size: 32px;
-	font-family: arial, serif;
-}
 
-section h2, section h3, section h4 {
-	font-size: 48px;
-	font-family: arial, serif;
-}
-
-h4 {
-	font-size: 36px;
-}
-
-.dim_bg {
-	background-color: #22222280;
-}
-
-.con {
-	display: block;
-	min-height: 800px;
-	max-height: 2400px;
-	padding-bottom: 20px;
-}
-
-.left_section {
-	display: block;
-	width: 100%;
-}
-
-.right_section {
-	display: block;
-	width: 100%;
-}
-
-.section_button {
-	display: inline-block;
-	text-align: center;
-	align-content: center;
-	width: 40%;
-	margin-bottom: 40px;
-	padding: 1% 2%;
-}
-
-.right_section img {
-	display: block;
-	margin: 0 auto;
-	width: 100%;
-	max-height: 400px;
-	min-height: 400px;
-}
+/* ----------__________ ANIMATIONS __________---------- */
 
 /* START OF H2 ANIMATION FOR FOOTER */
 @keyframes lights {
@@ -279,7 +326,7 @@ footer h2 {
 
 .content_header {
   font-family: "Cairo";
-  background-color: #59454500;
+  background-color: #594545cc;
   background-size: 100% 100%;
   background-blend-mode: color-burn;
   text-align: center;
@@ -310,20 +357,19 @@ footer h2 {
 
 /* END OF CONTENT HEADER ANIMATION */
 
-
 /* START OF CONTENT TECH STACK ANIMATION */
 
 .animation {
 	display: inline-block;
   height: 50px;
   overflow: hidden;
-  margin-left: 1rem;
+  margin-left: 0rem;
 }
 
 .animation > div > div {
-  padding: 0.25rem 0.75rem;
+  padding: 0.5rem 0.75rem;
   height: 3rem;
-  margin-bottom: 2.81rem;
+  margin-bottom: 3rem;
   display: inline-block;
   text-align: center;
 }
@@ -347,12 +393,12 @@ footer h2 {
 @keyframes text-animation {
   0% {margin-top: 0;}
   10% {margin-top: 0;}
-  20% {margin-top: -5.60rem;}
-  30% {margin-top: -5.60rem;}
-  40% {margin-top: -11.20rem;}
-  60% {margin-top: -11.20rem;}
-  70% {margin-top: -5.60rem;}
-  80% {margin-top: -5.60rem;}
+  20% {margin-top: -4.60rem;}
+  30% {margin-top: -4.60rem;}
+  40% {margin-top: -10.20rem;}
+  60% {margin-top: -10.20rem;}
+  70% {margin-top: -4.60rem;}
+  80% {margin-top: -4.60rem;}
   90% {margin-top: 0;}
   100% {margin-top: 0;}
 }
@@ -360,9 +406,12 @@ footer h2 {
 /* END OF CONTENT TECH STACK ANIMATION */
 
 
-/* FOR TABLET VIEW */
+
+/* ----------__________ TABLET VIEW __________---------- */
 
 @media screen and (min-width: 900px) {
+	/* ----------__________ NAVIGATION __________---------- */
+
 	.top_nav {
 		display: flex;
 		padding: 2% 10%;
@@ -375,9 +424,12 @@ footer h2 {
 
 	.right_nav {
 		width: 40%;
+		display: flex;
+		justify-content: end;
+		align-items: center;
 	}
 
-	.top_nav img {
+	.left_nav img {
 		display: inline-block;
 		/*width: 25%;
 		height: 35%;*/
@@ -385,9 +437,29 @@ footer h2 {
 		height: auto;
 		padding: 2%;
 	}
-	
-	img {
-		width: 30%;
+
+	.left_nav h1 {
+		display: inline-block;
+		font-size: 48px;
+	}
+
+	.right_nav ul {
+		display: inline-block;
+		width: fit-content;
+		padding: 2%;
+	}
+
+	.right_nav li {
+		display: inline-block;
+		padding: 0% 4%;
+		width: 80%;
+		text-align: center;
+	}
+
+	/* ----------__________ CONTENT __________---------- */
+
+	.content img {
+		width: 100%;
 		height: auto;
 	}
 
@@ -395,22 +467,24 @@ footer h2 {
 		font-size: 82px;
 	}
 
-	.top_nav h1 {
-		display: inline-block;
+	#page_header {
+		font-size: 96px;
+	}
+
+	.content section p, .content section li {
+		font-size: 32px;
+	}
+
+	.content section h2, .content section h3, .content section h4 {
 		font-size: 48px;
 	}
 
-	.top_nav ul {
-		display: inline-block;
-		width: fit-content;
-		padding: 2%;
+	.content h4 {
+		font-size: 36px;
 	}
 
-	.top_nav li {
-		display: inline-block;
-		padding: 0% 4%;
-		text-align: center;
-	}
+
+	/* ----------__________ FOOTER __________---------- */
 
 	footer {
 		display: block;
@@ -452,68 +526,33 @@ footer h2 {
 	.center_footer h2 {
 		text-align: center;
 	}
-
-	section p, section li {
-		font-size: 32px;
-	}
-
-	section h2, section h3, section h4 {
-		font-size: 48px;
-	}
-
-	h4 {
-		font-size: 36px;
-	}
 }
 
-/* FOR LARGE VIEW */
+
+	/* ----------__________ LARGE VIEW __________---------- */
+
 @media screen and (min-width: 1400px) {
+
+	/* ----------__________ NAVIGATION __________---------- */
+
 	.top_nav {
 		display: inline-flex;
 		justify-content: end;
 		padding: 0% 2%;
 	}
 
-	.top_nav li {
+	.left_nav {
 		display: inline-block;
-		margin: 0% 2%;
-		padding: 1% 2%;
+		width: 45%;
+		margin-right: 10%;
 	}
 
-	.top_nav ul {
-		display: inline-block;
-		width: 90%;
-		padding: 2%;
-	}
-
-	.top_nav a {
-		display: inline-block;
-		font-size: 24px;
-	}
-
-	.content_header h2 {
-		font-size: 120px;
-	}
-
-	img {
-		display: block;
-		width: 20%;
-		height: auto;
-		margin: 0% auto;
-	}
-
-	.top_nav img {
+	.left_nav img {
 		display: inline-block;
 		width: 10%;
 		height: auto;
 		padding: 2%;
 		margin: 0 auto;
-	}
-
-	.left_nav {
-		display: inline-block;
-		width: 45%;
-		margin-right: 10%;
 	}
 
 	.left_nav abbr {
@@ -527,9 +566,35 @@ footer h2 {
 	}
 
 	.right_nav ul {
-		display: inline-flex;
-		justify-content: center;
-		align-items: center;
+		display: inline-block;
+		width: 90%;
+		padding: 2%;
+	}
+
+	.right_nav li {
+		display: inline-block;
+		margin: 0% 2%;
+		width: fit-content;
+		padding: 1% 2%;
+	}
+
+	.right_nav a {
+		display: inline-block;
+		font-size: 24px;
+	}
+
+
+	/* ----------__________ CONTENT __________---------- */
+
+	.content_header h2 {
+		font-size: 120px;
+	}
+
+	.content img {
+		display: block;
+		width: 20%;
+		height: auto;
+		margin: 0% auto;
 	}
 
 	.content_header img {
@@ -538,6 +603,73 @@ footer h2 {
 		min-height: 30%;
 		max-height: 50%;
 	}
+
+	.con {
+		display: block;
+		float: top;
+		height:inherit;
+		min-height: 600px;
+		max-height: 1600px;
+		padding: 20px 0 0;
+		margin: 0% auto;
+	}
+
+	.main {
+		display: block;
+		width: 100vw;
+		height: 100vh;
+		margin: 0%;
+	}
+
+	.content section {
+		display: block;
+		min-height: auto;
+		font-size: 24px;
+		padding: 2% 2% 25px;
+	}
+
+	.content section p, .content section li {
+		font-size: 24px;
+	}
+
+	.content section h2, .content section h3, .content section h4 {
+		font-size: 36px;
+	}
+
+	.content h4 {
+		font-size: 32px;
+	}
+
+	#page_header {
+		font-size: 84px;
+	}
+
+	.section_button {
+		width: 20%;
+	}
+
+	.left_section {
+		display: inline-block;
+		width: 45%;
+		height: 400px;
+		margin-left: 2%;
+	}
+
+	.right_section {
+		display: inline-block;
+		width: 45%;
+		margin-right: 2%;
+	}
+
+	.right_section img {
+		display: inline-block;
+		margin: 0% auto;
+		width: 100%;
+		max-height: 400px;
+		min-height: 400px;
+	}
+
+	/* ----------__________ FOOTER __________---------- */
 
 	footer {
 		display: flex;
@@ -555,6 +687,8 @@ footer h2 {
 		height: auto;
 		width: auto;
 	}
+
+	/* ----------__________ ANIMATIONS __________---------- */
 
 	/* START OF ABBR ANIMATION FOR NAV BAR */
 	abbr {
@@ -595,65 +729,8 @@ footer h2 {
 	}
 	/*made with ❤, by qpi65*/
 	/* END OF ABBR ANIMATION FOR NAV BAR */
+}
 
-	.main {
-		display: block;
-		width: 100vw;
-		height: 100vh;
-		margin: 0%;
-	}
-
-	section {
-		display: block;
-		min-height: auto;
-		font-size: 24px;
-		padding: 2% 2% 25px;
-	}
-
-	section p, section li {
-		font-size: 24px;
-	}
-
-	section h2, section h3, section h4 {
-		font-size: 36px;
-	}
-
-	h4 {
-		font-size: 32px;
-	}
-
-	.con {
-		display: block;
-		float: top;
-		height:inherit;
-		min-height: 600px;
-		max-height: 1600px;
-		padding: 20px 0 0;
-		margin: 0 auto;
-	}
-
-	.section_button {
-		width: 20%;
-	}
-
-	.left_section {
-		display: inline-block;
-		width: 45%;
-		height: 400px;
-		margin-left: 2%;
-	}
-
-	.right_section {
-		display: inline-block;
-		width: 45%;
-		margin-right: 2%;
-	}
-
-	.right_section img {
-		display: inline-block;
-		margin: 0 auto;
-		width: 100%;
-		max-height: 400px;
-		min-height: 400px;
-	}
+footer svg {
+	max-width: 80%;
 }

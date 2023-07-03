@@ -172,7 +172,9 @@ footer h2, .footer_links {
 
 .center_footer h2, .left_footer img {
 	display: block;
+	width: 90%;
 	margin: 0 auto;
+	text-align: left;
 	padding-bottom: 10px;
 }
 
@@ -418,6 +420,12 @@ footer h2 {
 
 	.center_footer h2 {
 		text-align: center;
+	}
+	
+	.center_footer {
+		display: inline-flex;
+		justify-content: center;
+		align-items: center;
 	}
 }
 

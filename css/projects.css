@@ -529,6 +529,7 @@ footer h2 {
 	.center_footer h2 {
 		text-align: center;
 	}
+	
 	.center_footer {
 		display: inline-flex;
 		justify-content: center;

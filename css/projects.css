@@ -193,6 +193,10 @@ body {
 	margin-right: 30%;
 }
 
+.content a {
+	font-size: 24px;
+}
+
 
 /* ----------__________ FOOTER __________---------- */
 
@@ -224,9 +228,9 @@ footer h2, .footer_links {
 
 .center_footer h2, .left_footer img {
 	display: block;
+	width: 90%;
 	margin: 0 auto;
 	text-align: left;
-	word-wrap: break-word;
 	padding-bottom: 10px;
 }
 
@@ -315,7 +319,7 @@ footer h2, .footer_links {
 footer h2 {
 	font: 100% / 1.5 Raleway, sans-serif;
 	color: #FFF8EA;
-	font-size: 36px;
+	font-size: 24px;
 	font-weight: 300;
 	animation: lights 10s 750ms linear infinite;
 }
@@ -404,7 +408,6 @@ footer h2 {
 }
 
 /* END OF CONTENT TECH STACK ANIMATION */
-
 
 
 /* ----------__________ TABLET VIEW __________---------- */
@@ -525,6 +528,11 @@ footer h2 {
 
 	.center_footer h2 {
 		text-align: center;
+	}
+	.center_footer {
+		display: inline-flex;
+		justify-content: center;
+		align-items: center;
 	}
 }
 

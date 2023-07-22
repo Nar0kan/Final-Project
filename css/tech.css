@@ -46,13 +46,13 @@ body {
 	margin: 0% 20% 2% 20%;
 	padding: 1% 0%;
 	transition: 1s easy-in;
-	border: 2px #FFF8EA5a;
+	border: 2px #FFF8EAff;
 	border-style: solid;
 	border-radius: 12%;
 }
 
 .right_nav li:hover {
-	border-color: #FFF8EA;
+	border-color: #FFF8EAff;
 	background-color: #594545cc;
 	color: #FFF8EA;
 }

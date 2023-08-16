@@ -11,16 +11,16 @@ body {
 .top_nav {
 	position:static;
 	top: 0;
-  width: 100%;
+  	width: 100%;
 	display: block;
 	background-color: #594545;
 	color: #FFF8EA;
 	font-size: 24px;
 	font-family: "sans-serif", arial;
-  z-index:10;
-  opacity: 1;
-  align-items: center;
-  padding-bottom: 2%;
+  	z-index:10;
+  	opacity: 1;
+  	align-items: center;
+  	padding-bottom: 2%;
 }
 
 .left_nav img {
@@ -71,9 +71,9 @@ body {
 /* ----------__________ CONTENT __________---------- */
 
 .content {
-  padding: 16px;
-  margin-top: 120px;
-  height: 80%; /* Used in this example to enable scrolling */
+  	padding: 16px;
+  	margin-top: 120px;
+  	height: 80%; /* Used in this example to enable scrolling */
 }
 
 .current_page {
@@ -255,34 +255,35 @@ footer h2 {
 @import url('https://fonts.googleapis.com/css?family=Cairo');
 
 .content_header {
-  font-family: "Cairo";
-  background-color: #594545cc;
-  background-size: 100% 100%;
-  background-blend-mode: color-burn;
-  text-align: center;
-  color: #FFF;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 30vh;
-  letter-spacing: 1px;
-  line-height:2;
-  width: 100%;
+	font-family: "Cairo";
+	background-color: #594545cc;
+	background-size: 100% 100%;
+	background-blend-mode: color-burn;
+	text-align: center;
+	color: #FFF;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 30vh;
+	letter-spacing: 1px;
+	line-height:2;
+	width: 100%;
 
 }
 
 .content_header h2 {
-  background-image: url("https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif");
-  background-size: cover;
-  color: transparent;
-  -moz-background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-stroke: 2px white;
-  text-transform: uppercase;
-  font-size: 64px;
-  margin: 10px 0;
-  text-shadow: 0 0 2px #f2faf09a;
+	background-image: url("../images/giphy.gif");
+	background-size: cover;
+	color: transparent;
+	background-clip: text;
+	-moz-background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-stroke: 2px white;
+	text-transform: uppercase;
+	font-size: 64px;
+	margin: 10px 0;
+	text-shadow: 0 0 2px #f2faf09a;
 }
 
 /* END OF CONTENT HEADER ANIMATION */
@@ -298,15 +299,15 @@ footer h2 {
 		overflow: hidden;
 		position:fixed;
 		top: 0;
-	  width: 100%;
+	  	width: 100%;
 		display: block;
 		background-color: #594545;
 		color: #FFF8EA;
 		font-size: 24px;
 		font-family: "sans-serif", arial;
-	  z-index:10;
-	  opacity: 1;
-	  align-items: center;
+	  	z-index:10;
+	  	opacity: 1;
+	  	align-items: center;
 	}
 
 	.top_nav {
@@ -419,7 +420,7 @@ footer h2 {
 	}
 
 	.content img {
-		display: inline-block;
+		display: block;
 		float: left;
 		width: 20%;
 		height: auto;
@@ -457,9 +458,9 @@ footer h2 {
 	footer {
 		position: relative;
 		height: 20%;
-	  left: 0;
-	  bottom: 0;
-	  width: 100%;
+	  	left: 0;
+	  	bottom: 0;
+	  	width: 100%;
 	}
 
 	.footer_link {

@@ -76,10 +76,10 @@ body {
 /* ----------__________ CONTENT __________---------- */
 
 .content {
-  padding: 16px 0px;
-  margin-top: 120px;
-  width: 100%;
-  height: 80%; /* Used in this example to enable scrolling */
+	padding: 16px 0px;
+	margin-top: 120px;
+	width: 100%;
+	height: 80%; /* Used in this example to enable scrolling */
 }
 
 #page_header {
@@ -139,89 +139,89 @@ body {
 
 /*  ----------__________ CARDS __________----------  */
 .ag-format-container {
-  width: 75%;
-  margin: 0 auto;
-  animation: 1s linear 0.5s 1 slideInFromLeft;
+	width: 75%;
+	margin: 0 auto;
+	animation: 1s linear 0.5s 1 slideInFromLeft;
 }
 
 .ag-courses_box {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: start;
-  -ms-flex-align: start;
-  align-items: flex-start;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  padding: 50px 0;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: start;
+	-ms-flex-align: start;
+	align-items: flex-start;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	padding: 50px 0;
 }
 
 .ag-courses_item {
-  -ms-flex-preferred-size: calc(33.33333% - 30px);
-  flex-basis: calc(33.33333% - 30px);
-  margin: 0 15px 30px;
-  overflow: hidden;
-  border-radius: 28px;
+	-ms-flex-preferred-size: calc(33.33333% - 30px);
+	flex-basis: calc(33.33333% - 30px);
+	margin: 0 15px 30px;
+	overflow: hidden;
+	border-radius: 28px;
 }
 
 .ag-courses-item_link {
-  display: block;
-  padding: 30px 20px;
-  background-color: #041316e3;
-  overflow: hidden;
-  position: relative;
+	display: block;
+	padding: 30px 20px;
+	background-color: #041316e3;
+	overflow: hidden;
+	position: relative;
 }
 
 .ag-courses-item_link:hover,
 .ag-courses-item_link:hover .ag-courses-item_date {
-  text-decoration: none;
-  color: #FFF;
+	text-decoration: none;
+	color: #FFF;
 }
 
 .ag-courses-item_link:hover .ag-courses-item_bg {
-  -webkit-transform: scale(10);
-  -ms-transform: scale(10);
-  transform: scale(10);
+	-webkit-transform: scale(10);
+	-ms-transform: scale(10);
+	transform: scale(10);
 }
 
 .ag-courses-item_title {
-  min-height: 87px;
-  margin: 0 0 25px;
-  overflow: hidden;
-  font-weight: bold;
-  font-size: 30px;
-  color: #FFF;
-  z-index: 2;
-  position: relative;
+	min-height: 87px;
+	margin: 0 0 25px;
+	overflow: hidden;
+	font-weight: bold;
+	font-size: 30px;
+	color: #FFF;
+	z-index: 2;
+	position: relative;
 }
 
 .ag-courses-item_date-box {
-  font-size: 18px;
-  color: #FFF;
-  z-index: 2;
-  position: relative;
+	font-size: 18px;
+	color: #FFF;
+	z-index: 2;
+	position: relative;
 }
 
 .ag-courses-item_date {
-  font-weight: bold;
-  color: #946006e0;
-  -webkit-transition: color .5s ease;
-  -o-transition: color .5s ease;
-  transition: color .5s ease
+	font-weight: bold;
+	color: #946006e0;
+	-webkit-transition: color .5s ease;
+	-o-transition: color .5s ease;
+	transition: color .5s ease
 }
 
 .ag-courses-item_bg {
-  height: 128px;
-  width: 128px;
-  background-color: #128b06e0;
-  z-index: 1;
-  position: absolute;
-  top: -75px;
-  right: -75px;
-  border-radius: 50%;
-  -webkit-transition: all .5s ease;
-  -o-transition: all .5s ease;
-  transition: all .5s ease;
+	height: 128px;
+	width: 128px;
+	background-color: #128b06e0;
+	z-index: 1;
+	position: absolute;
+	top: -75px;
+	right: -75px;
+	border-radius: 50%;
+	-webkit-transition: all .5s ease;
+	-o-transition: all .5s ease;
+	transition: all .5s ease;
 }
 
 .ag-courses_item:nth-child(2n) .ag-courses-item_bg {
@@ -419,35 +419,35 @@ footer h2 {
 @import url('https://fonts.googleapis.com/css?family=Cairo');
 
 .content_header {
-  font-family: "Cairo";
-  background-color: transparent;
-  background-size: 100% 100%;
-  background-blend-mode: color-burn;
-  text-align: center;
-  color: #FFF;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 30vh;
-  letter-spacing: 1px;
-  line-height:2;
-  width: 100%;
-  animation: fadeInUp 1.2s linear;
-
+	font-family: "Cairo";
+	background-color: transparent;
+	background-size: 100% 100%;
+	background-blend-mode: color-burn;
+	text-align: center;
+	color: #FFF;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 30vh;
+	letter-spacing: 1px;
+	line-height:2;
+	width: 100%;
+	animation: fadeInUp 1.2s linear;
 }
 
 .content_header h2 {
-  background-image: url("https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif");
-  background-size: cover;
-  color: transparent;
-  -moz-background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-stroke: 2px white;
-  text-transform: uppercase;
-  font-size: 64px;
-  margin: 10px 0;
-  text-shadow: 0 0 2px #c4a7ab94;
+	background-image: url("../images/giphy.gif");
+	background-size: cover;
+	color: transparent;
+	background-clip: text;
+	-moz-background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-stroke: 2px white;
+	text-transform: uppercase;
+	font-size: 64px;
+	margin: 10px 0;
+	text-shadow: 0 2px 2px #c4a7ab94;
 }
 
 @-webkit-keyframes fadeInUp {
@@ -648,7 +648,7 @@ footer h2 {
 	}
 
 	.content img {
-		display: inline-block;
+		display: block;
 		float: left;
 		width: 20%;
 		height: auto;

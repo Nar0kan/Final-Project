@@ -241,17 +241,18 @@ footer h2 {
 	text-decoration-line: underline;
 	text-decoration-color: transparent;
 	text-decoration-thickness: 1px;
+	padding-left: 6px;
+	padding-right: 6px;
 	color: #fff8ea;
 	margin-bottom: 4%;
 }
 
 .footer_link:hover {
-	background-color: #a4879b44;
-}
-
-.footer_links a:hover {
+	border-radius: 12%;
+	text-decoration: solid 2px;
 	text-decoration-color: #fff8ea;
 	color: #fff8ea;
+	background-color: #a4879b44;
 }
 
 i {
